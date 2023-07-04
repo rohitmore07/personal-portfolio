@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        clash: ['Clash', 'sans-serif'],
+        bodyFont : ["Montserrat","sans-serif"],
+        titleFont : ["Inter","sans-serif"],
       },
       colors:  {
         'main-1': '#363636',
