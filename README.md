@@ -1,1 +1,2 @@
-:rocket: LIve Site : <a href="https://creatro.vercel.app/">CREATRO</a>
+<h1>:rocket: Live Site :</h1><a href="https://creatro.vercel.app/">CREATRO</a>
+Tech Stack Used : <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
