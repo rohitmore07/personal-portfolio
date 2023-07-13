@@ -7,4 +7,4 @@
 ## 📬 Connect With Me
 
 - **LinkedIn** - [Rohit More](https://www.linkedin.com/in/rohitmore07/)
-- **Twitter** - [@rohitt](https://www.twitter.com/rohittmore)
+- **Twitter** - [@rohittmore](https://www.twitter.com/rohittmore)
