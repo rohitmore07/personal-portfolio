@@ -8,8 +8,9 @@ module.exports = {
         titleFont: ["Inter", "sans-serif"],
       },
       colors: {
-        "main-1": "#1A242A",
-        "main-2": "#00A5FF",
+        "main-1": "#515C6F",/*body*/
+        "main-2": "#BBD0F5",/*blueish*/
+        "main-3": "#CFC9C6",/*college*/
       },
       screens: {
         sm: "640px",

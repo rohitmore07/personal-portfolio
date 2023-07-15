@@ -24,65 +24,67 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="output.css" >
+    <script src="script.js"></script>
+
 
 </head>
-<body class="bg-main-1 overflow-x-hidden">
-    <nav class="bg-main-1">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <h2 class="font-titleFont font-extrabold flex items-center text-white">CREAT<span class="text-[#00A5FF]">RO</span></h2>
+<body class="bg-white overflow-x-hidden">
+    <nav class="bg-white">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:mt-2 p-4">
+        <h2 class="font-titleFont font-extrabold flex items-center text-[#515C6F]">CREAT<span class="text-[#515C6F] bg-[#BBD0F5]">RO</span></h2>
             <div class="flex md:order-2"></div>
                 <ul class="font-titleFont flex flex-col font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-20 md:mt-0">
-                    <li><a id="hLink" href="#home" class="text-white hover:text-[#00A5FF]">Home</a></li>
-                    <li><a id="hLink" href="#skills" class="text-white hover:text-[#00A5FF]">Skills</a></li>
-                    <li><a id="hLink" href="#projects" class="text-white hover:text-[#00A5FF]">Projects</a></li>
-                    <li><a id="hLink" href="#contact" class="text-white hover:text-[#00A5FF]">Contact</a></li>
+                    <li><a id="hLink" href="#home" class="group text-[#515C6F] transition duration-300">Home<span class="block max-w-0 group-hover:max-w-full h-1 mt-1 transition-all duration-500 h-0.5 bg-[#BBD0F5]"></span></a></li>
+                    <li><a id="hLink" href="#skills" class="group text-[#515C6F] transition duration-300">Skills<span class="block max-w-0 group-hover:max-w-full h-1 mt-1 transition-all duration-500 h-0.5 bg-[#BBD0F5]"></span></a></li>
+                    <li><a id="hLink" href="#projects" class="group text-[#515C6F] transition duration-300">Projects<span class="block max-w-0 group-hover:max-w-full h-1 mt-1 transition-all duration-500 h-0.5 bg-[#BBD0F5]"></span></a></li>
+                    <li><a id="hLink" href="#contact" class="group text-[#515C6F] transition duration-300">Contact<span class="block max-w-0 group-hover:max-w-full h-1 mt-1 transition-all duration-500 h-0.5 bg-[#BBD0F5]"></span></a></li>
                 </ul>
     </div>
         </nav>
-        <section id="home" class="flex flex-col-reverse sm:flex-row sm:justify-between	lg:min-h-screen bg-main-1 px-8 sm:px-16 py-4 max-w-screen-xl mx-auto">
+        <section id="home" class="flex flex-col-reverse sm:flex-row sm:justify-between	lg:min-h-screen bg-white px-8 sm:px-16 py-4 max-w-screen-xl mx-auto">
     <!-- left side -->
     <div class="sm:w-3/5 pt-10">
-      <p class="font-bodyFont text-[#00A5FF] font-bold ">Hi, I'm</p>
-      <h2 class="font-titleFont text-4xl lg:text-5xl xl:text-6xl font-bold text-white mt-3 lg:mt-7">Rohit More.</h2>
-      <h2 class="font-titleFont text-3xl lg:text-3xl xl:text-4xl	font-semibold text-[#00A5FF] lg:mt-5">Front-End Developer</h2>
-      <p class="mt-4 lg:mt-10 max-w-md text-white">
+      <p class="font-bodyFont text-[#515C6F] font-bold ">Hi, I'm</p>
+      <h2 class="font-titleFont text-4xl lg:text-5xl xl:text-6xl font-bold text-[#515C6F] mt-3 lg:mt-7">Rohit More.</h2>
+      <h2 class="font-titleFont text-3xl lg:text-3xl xl:text-4xl	font-semibold text-[#515C6F] lg:mt-5">Front-End Developer</h2>
+      <p class="mt-4 lg:mt-8 max-w-md text-[#515C6F]">
         Creating captivating and user-friendly digital experiences through elegant interfaces. 
         I build dynamic websites and applications with a focus on intuitive design.
         I loved to build products that can be used by millions of people.<br><br>
-        <span class="font-bodyFont font-bold text-[#00A5FF]">Open for Work & Collaboration.</span>
+        <span class="font-bodyFont font-bold bg-[#BBD0F5]">Open for Work & Collaboration.</span>
       </p>
       <div class="mt-12">
-        <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-transparent border border-[#00A5FF] text-lg shadow">
-          <div class="absolute inset-0 w-3 bg-[#00A5FF] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-          <a href="resume.pdf" class="font-montserrat text-base relative text-white group-hover:text-white">Download CV</a>
+        <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white border border-[#CFC9C6] text-lg shadow">
+          <div class="absolute inset-0 w-3 bg-[#CFC9C6] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+          <a href="resume.pdf" class="font-bodyFont font-medium text-base relative text-[#515C6F] group-hover:text-[#515C6F]">Download CV</a>
         </button>
       </div>
       <!-- social Links -->
-      <div class="mt-3 lg:mt-12">
+      <div class="lg:mt-10">
         <ul class="flex lg:gap-4">
           <li class="mr-2 flex justify-center items-center">
             <a href="https://www.linkedin.com/in/rohitmore07/" target="_blank" class="w-[35px] h-[35px]">
-              <ion-icon name="logo-linkedin" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-white hover:text-[#00A5FF]"></ion-icon>
+              <ion-icon name="logo-linkedin" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-[#515C6F] hover:text-[#BBD0F5]"></ion-icon>
             </a>
           </li>
           <li class="mr-2 flex justify-center items-center">
             <a href="https://github.com/rohitmore07" target="_blank" class="w-[35px] h-[35px]">
-              <ion-icon name="logo-github" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-white hover:text-[#00A5FF]"></ion-icon>
+              <ion-icon name="logo-github" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-[#515C6F] hover:text-[#BBD0F5]"></ion-icon>
             </a>
           </li>
           <li class="mr-2 flex justify-center items-center">
             <a href="https://twitter.com/rohittmore" target="_blank" class="w-[35px] h-[35px]">
-              <ion-icon name="logo-twitter" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-white hover:text-[#00A5FF]"></ion-icon>
+              <ion-icon name="logo-twitter" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-[#515C6F] hover:text-[#BBD0F5]"></ion-icon>
             </a>
           </li>
           <li class="mr-2 flex justify-center items-center">
             <a href="https://www.instagram.com/creatro.r7/?hl=en" target="_blank" class="w-[35px] h-[35px]">
-              <ion-icon name="logo-instagram" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-white hover:text-[#00A5FF]"></ion-icon>
+              <ion-icon name="logo-instagram" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-[#515C6F] hover:text-[#BBD0F5]"></ion-icon>
             </a>
           </li>
           <li class="mr-2 flex justify-center items-center">
             <a href="mailto: cserohitmore@gmail.com" target="_blank" class="w-[35px] h-[35px]">
-              <ion-icon name="mail" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-white hover:text-[#00A5FF]"></ion-icon>
+              <ion-icon name="mail" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text-[#515C6F] hover:text-[#BBD0F5]"></ion-icon>
             </a>
           </li>
           
@@ -91,7 +93,7 @@
     </div>
 
     <!-- right side -->
-    <div class="absolute top-0 right-0 hidden sm:block bg-white w-64 h-full z-0 "></div>
+    <div class="absolute top-0 right-0 hidden sm:block bg-[#BBD0F5] w-64 h-full z-0 "></div>
     <div class="absolute bottom-0 right-0 w-40 lg:absolute lg:bottom-0 lg:right-0 lg:block lg:w-[28%] lg:z-10 lg:mr-20">
         
       <img src="1.png" alt="hero-img" class="">
@@ -101,12 +103,12 @@
   <!-- tech stack Section -->
   <!-- ********************************************** -->
 
-  <section id="skills" class="bg-main-1 px-8 sm:px-16 py-36 max-w-screen mx-auto" id="skills">
+  <section id="skills" class="bg-[#515C6F] px-8 sm:px-16 py-36 max-w-screen" style="margin-top:-4.600rem;" id="skills">
     <div class="">
       <div class="flex justify-center items-center gap-12 mb-12">
-        <div class="h-px flex-1 bg-[#00A5FF] hidden sm:block"></div>
+        <div class="h-px flex-1 bg-[#BBD0F5] hidden sm:block"></div>
         <h2 class="text-white text-4xl font-bold">Tech Stack</h2>
-        <div class="h-px flex-1 bg-[#00A5FF] hidden sm:block"></div>
+        <div class="h-px flex-1 bg-[#BBD0F5] hidden sm:block"></div>
       </div>
 
       <!-- skills -->
@@ -142,15 +144,15 @@
 
         <!-- Skill 05 -->
 
-        <div class="flex flex-col items-center gap-2">
-          <img src="./images/react.png" alt="javascript icon" class="w-26 h-24">
+        <div class="flex flex-col items-center gap-2 mt-3">
+          <img src="./images/react.png" alt="javascript icon" class="w-24 h-23">
           <p class="font-semibold text-white">React JS</p>
         </div>
 
         <!-- Skill 06 -->
         
          <div class="flex flex-col items-center gap-2">
-          <img src="./images/icon-next.svg" alt="next icon" class="w-26 h-24">
+          <img src="./images/icon-next.svg" alt="next icon" class="w-24 h-24">
           <p class="font-semibold text-white">Next.js</p>
         </div>
           
@@ -172,7 +174,7 @@
       <div class="flex flex-col sm:flex-row">
 
       <!---Left Section-->
-      <div class="w-1/2 ml-52">
+      <div class="w-1/2 mb-20 lg:ml-52">
         <div class="flex items-center">
           <img class="w-10 h-10 mr-2" src="code.png" alt="code"/>
           <span class="text-base font-bold">Frontend Developer</span>
@@ -183,25 +185,25 @@
         </p>
         </div>
 
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">HTML</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">HTML</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full" style="width: 99%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full" style="width: 99%"></div>
           </div>
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">CSS</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">CSS</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full " style="width: 90%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full " style="width: 90%"></div>
           </div>
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">Tailwind CSS</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">Tailwind CSS</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full " style="width: 90%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full " style="width: 90%"></div>
           </div>
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">Javascript</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">Javascript</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full " style="width: 75%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full " style="width: 75%"></div>
           </div>
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">React JS</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">React JS</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full" style="width: 75%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full" style="width: 75%"></div>
           </div>
       </div>
           
@@ -209,30 +211,30 @@
         <div class="w-1/2">
         <div class="flex items-center">
         <img class="h-10 w-10 mr-2" src="des.png" alt="layers"/>
-        <div class="text-base font-bold text-main-1">Designer</div>
+        <div class="text-base font-bold text-[#515C6F]">Designer</div>
       </div>
       <div class="w-96">
       <p class="font-medium mt-2">I value simple content structure, clean design patterns and thoughtful interactions.</p>
       </div>
-      <div class="mt-11 mb-1 text-base font-medium dark:text-white">Figma</div>
+      <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">Figma</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full" style="width: 95%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full" style="width: 95%"></div>
           </div>
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">Adobe XD</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">Adobe XD</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full" style="width: 85%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full" style="width: 85%"></div>
           </div>
-          <div class="mt-11 mb-1 text-base font-medium dark:text-white">Adobe Photoshop</div>
+          <div class="mt-11 mb-1 text-base font-medium dark:text-[#515C6F]">Adobe Photoshop</div>
           <div class="w-96 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-          <div class="bg-[#00A5FF] h-1.5 rounded-full" style="width: 85%"></div>
+          <div class="bg-[#BBD0F5] h-1.5 rounded-full" style="width: 85%"></div>
     </div>
     </div>
   </div>
 </div>
   </section>
   <!-- Qualification Section Starts-->
-  <section class="bg-main-1 px-10 py-28 max-w-screen mx-auto">
-    <div class="pt-10 text-center text-4xl  font-bold text-white ">Qualification</div>
+  <section class="bg-[#515C6F] px-10 py-28 max-w-screen mx-auto">
+    <div class="pt-10 text-center text-4xl  font-bold text-white">Qualification</div>
     <div class="flex flex-col lg:flex-row justify-center mx-auto lg:ml-64">
       <!---Left Section-->
       <div class="mt-24 lg:mx-auto lg:w-1/2 lg:mt-24">
@@ -297,63 +299,80 @@
   <!-- Qualification Section Ends-->
 
   <!-----Projects Section Starts-->
-  <section id="projects" class="bg-white px-8 sm:px-16 py-16 max-w-screen mx-auto">
-    <div class="pt-10 text-center text-4xl  font-bold text-main-2 ">Projects</div>
+<section id="projects" class="bg-white px-8 sm:px-16 py-24 max-w-screen mx-auto">
+    <div class="pt-10 mb-20 text-center text-4xl  font-bold text-[#515C6F]">Projects</div>
     
-
-    <div id="default-carousel" class="relative w-full pt-20" data-carousel="slide">
-      <!-- Carousel wrapper -->
-      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-           <!-- Item 1 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 2 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 3 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 4 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 5 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
+    
+<div class="grid md:grid-cols-2 gap-8 lg:w-1/2 mx-auto">
+  <div class="relative">
+      <img class="h-48 w-full w-96 rounded-lg" src="imagequarry.png" alt="">
+      <div class="rounded-xl absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
+        <div class="text-white text-center">
+          <h2 class="text-2xl font-bold">Image Quarry</h2>
+          <p class="text-xs p-3">A dynamic web application developed with ReactJS ,harnessing the power of the Unsplash API. Effortlessly search, browse, and discover a vast collection of high-quality images.</p>
+          <a href="https://github.com/rohitmore07/image-quarry" target="_blank">
+            <ion-icon name="logo-github" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+          </a>
+          <a href="https://image-quarry.vercel.app/" target="_blank">
+            <ion-icon name="globe-outline" class="ml-4 w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+          </a>
+        </div>
       </div>
-      <!-- Slider indicators -->
-      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-      </div>
-      <!-- Slider controls -->
-      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-              <span class="sr-only">Previous</span>
-          </span>
-      </button>
-      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-              <span class="sr-only">Next</span>
-          </span>
-      </button>
   </div>
+  <div class="relative">
+    <img class="h-48 w-full w-96 rounded-lg" src="gitprof.png" alt="">
+    <div class="rounded-xl absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
+      <div class="text-white text-center">
+        <h2 class="text-2xl font-bold">Github Profile Finder</h2>
+        <p class="text-xs p-3">An intuitive web application developed with ReactJS, GitHub API that enables users to search for GitHub profiles, displaying relevant information and repositories.</p>
+        <a href="https://github.com/rohitmore07/github-profile-finder" target="_blank">
+          <ion-icon name="logo-github" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+        </a>
+        <a href="https://gitprof.vercel.app/" target="_blank">
+          <ion-icon name="globe-outline" class="ml-4 w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+        </a>
+      </div>
+    </div>
+</div>
+<div class="relative">
+  <img class="h-48 w-full w-96 rounded-lg" src="sahyaquest.png" alt="">
+  <div class="rounded-xl absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
+    <div class="text-white text-center">
+      <h2 class="text-2xl font-bold">SahyaQuest</h2>
+      <p class="text-xs p-3"> A captivating online platform dedicated to Sahyadri trekking, camping, and workation experiences. Crafted with HTML, CSS & JavaScript.</p>
+      <a href="https://github.com/rohitmore07/sahyaquest-website" target="_blank">
+        <ion-icon name="logo-github" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+      </a>
+      <a href="https://sahyaquest.vercel.app/" target="_blank">
+        <ion-icon name="globe-outline" class="ml-4 w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="relative">
+  <img class="h-48 w-full w-96 rounded-lg" src="ytclone.png" alt="">
+  <div class="rounded-xl absolute inset-0 flex items-center justify-center opacity-0 bg-black bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
+    <div class="text-white text-center">
+      <h2 class="text-2xl font-bold">Youtube Clone</h2>
+      <p class="text-xs p-3"> A comprehensive YouTube clone project built with HTML, CSS, JS & Youtube API offering users a familiar interface to discover, watch, and interact with videos.</p>
+      <a href="https://github.com/rohitmore07/youtube-clone" target="_blank">
+        <ion-icon name="logo-github" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+      </a>
+      <a href="https://youtube-clone-creatro.vercel.app/" target="_blank">
+        <ion-icon name="globe-outline" class="ml-4 w-[24px] h-[24px] lg:w-[35px] lg:h-[35px] transition-all text- hover:text-[#BBD0F5]"></ion-icon>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
 </section>
 
-<section id="contact" class="bg-main-1 px-8 sm:px-16 py-16 max-w-screen mx-auto">
+<section id="contact" class="bg-[#515C6F] px-8 sm:px-16 py-16 max-w-screen mx-auto">
 
     <div class="mx-auto max-w-2xl text-center mt-24">
       <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Me</h2>
-      <p class="mt-2 text-lg leading-8 text-main-2">Feel free to reach out!</p>
+      <p class="mt-4 p-2 font-bodyFont font-bold text-white">Feel free to reach out!</p>
     </div>
     <form id="contact-form" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -400,7 +419,7 @@
           </div>
         </div>
         <div class="mt-10">
-        <button type="submit" class="block w-full rounded-md bg-[#00A5FF] px-40 py-2.5 lg:px-72 lg:py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
+        <button type="submit" class="block w-full rounded-md bg-indigo-500 px-40 py-2.5 lg:px-72 lg:py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
       </div>
     
     </form>
