@@ -8,3 +8,7 @@
 
 - **LinkedIn** - [Rohit More](https://www.linkedin.com/in/rohitmore07/)
 - **Twitter** - [@rohittmore](https://www.twitter.com/rohittmore)
+
+## 🛡️ License
+Copyright (c) 2023 Rohit More<br>
+This project is licensed under the MIT License.
