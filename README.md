@@ -10,5 +10,4 @@
 - **Twitter** - [@rohittmore](https://www.twitter.com/rohittmore)
 
 ## 🛡️ License
-Copyright (c) 2023 Rohit More<br>
-This project is licensed under the MIT License.
+[Copyright (c) 2023 Rohit More](https://opensource.org/licenses/MIT)<br>This project is licensed under the MIT License.
